@@ -160,6 +160,7 @@ footer p {
 .project-logo {
   animation-name: zoom-effect;
   transition-duration: .5s;
+  opacity: 0.3;
 }
 
 .project-box {

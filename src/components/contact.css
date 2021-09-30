@@ -86,12 +86,16 @@ ul a:hover {
 
 ul li {
 	margin: 10px 0;
-	height: 25px;
+	height: 30px;
 	color: yellow;
 }
 
 li i {
 	margin-right: 20px;
+}
+
+.footer-items ul li {
+	color: white;
 }
 
 

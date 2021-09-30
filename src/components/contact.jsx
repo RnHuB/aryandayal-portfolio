@@ -35,10 +35,10 @@ function Contact(){
 				<h2>Social Media Links</h2>
 				<div class="border"></div>
 				<ul>
-					<li><Link><img class="sMediaLogo" src={Insta} alt="" /></Link></li>
-					<li><Link><img class="sMediaLogo" src={LinkedIn} alt="" /></Link></li>
-					<li><Link><img class="sMediaLogo" src={Fb} alt="" /></Link></li>
-					<li><Link><img class="sMediaLogo" src={Github} alt="" /></Link></li>
+					<li><a href='https://www.instagram.com/the_lazyish_programmer/'><img class="sMediaLogo" src={Insta} alt="" /></a></li>
+					<li><a href='linkedin.com/in/aryan-d-3456b8105'><img class="sMediaLogo" src={LinkedIn} alt="" /></a></li>
+					<li><a href='https://www.facebook.com/aryan.dayal/'><img class="sMediaLogo" src={Fb} alt="" /></a></li>
+					<li><a href='https://github.com/RnHuB/'><img class="sMediaLogo" src={Github} alt="" /></a></li>
 				</ul>
 			</div>
 

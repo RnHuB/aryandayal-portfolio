@@ -26,7 +26,7 @@ function Blogs() {
         <div class="blog-content">
             <h3>Install & configure dropdown terminal TILDA in Arch Linux</h3>
             <h5>September 30, 2021</h5>
-            <p class="blog-content-description">The majority of Linux administrators and some of the regular Linux users prefer to use the command line to perform daily operations. However, you may find it tedious to open the terminal over and over again. In this case, we recommend a tool called Tilda. Tilda is an open-source and highly customizable GTK-based drop-down console for Linux. Tilda runs in the background while you can show and hide it with a single keystroke.<Link to='/Blog2'><button class="custom-button">Read More</button></Link></p>
+            <p class="blog-content-description">The majority of Linux administrators and some of the regular Linux users prefer to use the command line to perform daily operations. However, you may find it tedious to open the terminal over and over again. In this case, i recommend a tool called Tilda.<Link to='/Blog2'><button class="custom-button">Read More</button></Link></p>
         </div>
     </section>
 </main>

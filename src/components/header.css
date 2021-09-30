@@ -1,154 +1,165 @@
-  header {
-    background-color: rgb(32, 32, 102);
-    width: 100%;
-    height: 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    position: fixed;
-    z-index: 1;
-    transition: top 0.3s;
-    opacity: 0.9;
+header {
+  background-color: rgb(27, 49, 76);
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 1;
+  transition: top 0.3s;
+  opacity: 0.9;
+}
+
+header nav {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: inherit;
+}
+
+.menu-options a {
+  color: #AAA9B2; 
+  animation-name: coloration;
+  transition-duration: .5s;
+}
+
+.menu-options a:hover {
+  color:  #FFFFFF;
+}
+
+.menu {
+  transition: .3s;
+}
+
+.logo {
+  height: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.logo a {
+  color: #FFFFFF;
+}
+
+.menu {
+  height: inherit;
+  display: inherit;
+}
+
+header ol {
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+header ol li {
+  padding-left: 2rem;
+  height: inherit;
+}
+
+header a {
+  height: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+header ol a {
+  font-weight: 400;
+}
+
+            /*
+
+              || Landing Section Styles
+              
+            */
+
+#landing {
+  height: 100vh;
+  background-color: var(--primary-color);
+  display: flex;
+  background-image: url(/src/components/images/headerBackground.png);
+}
+
+#landing .container #namashkar {
+  font-size: 1.5rem;
+}
+
+#landing h2 {
+  margin-top: 6rem;
+  color: white;
+  font-size: 2rem;
+  margin: 5px;
+}
+
+#landing p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+
+
+
+
+/*for responsive*/
+@media screen and (max-width: 767px) {
+
+  #landing .container {
+    margin-top: 180px;
+    justify-content: center;
+    text-align: center;
   }
-  
-  header nav {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    justify-content: inherit;
-  }
-  
-  .menu-options a {
-    color: #AAA9B2; 
-    animation-name: coloration;
-    transition-duration: .5s;
-  }
-  
-  .menu-options a:hover {
-    color:  #FFFFFF;
-  }
-  
-  .menu {
-    transition: .3s;
-  }
-  
-  .logo {
-    height: inherit;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-  }
-  
-  .logo a {
-    color: #FFFFFF;
-  }
-  
-  .menu {
-    height: inherit;
-    display: inherit;
-  }
-  
-  header ol {
-    margin: 0;
-    padding: 0;
-    height: inherit;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-  }
-  
-  header ol li {
-    padding-left: 2rem;
-    height: inherit;
-  }
-  
-  header a {
-    height: inherit;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  header ol a {
-    font-weight: 400;
-  }
-  
-              /*
-  
-                || Landing Section Styles
-                
-              */
-  
+
   #landing {
-    height: 100vh;
-    background-color: var(--primary-color);
-    display: flex;
-    background-image: url(/src/components/images/headerBackground.png);
-  }
-  
-  #landing h2 {
-    margin-top: 6rem;
-    color: white;
-    font-size: 1.5rem;
-  }
-  
-  #landing p {
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #FFFFFF;
+    background-image: url(/src/components/images/headerBackgroundSmall.png);
+    background-size :contain;
+    background-repeat: no-repeat;
   }
 
-
-  
-  
-  
-  /*for responsive*/
-  @media screen and (max-width: 767px) {
-  
-    #landing .container {
-      justify-content: center;
-      text-align: center;
-    }
-  
-    header nav {
-      height: inherit;
-      justify-content: space-between;
-    } 
-  
-    header ol {
-      display: initial;
-    }
-  
-    header ol li {
-      height: 5rem;
-      text-align: center;
-    }
-  
-    .menu {
-      width: 100vw;
-      height: auto;
-      background: rgba(12, 159, 249, 1);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      left: 100vw;  
-      top: 0;
-      bottom: 0;
-    }
-  
-    .menu.is-active {
-      left: 0;
-    }
-  
-    .menu-options a {
-      margin: 4rem 0;
-      font-size: var(--medium-font-size);
-      /* color: #FFFFFF; */
-      justify-content: center;
-    }
-  
-  
+  header nav {
+    height: inherit;
+    justify-content: space-between;
   } 
-  
+
+  header ol {
+    display: initial;
+  }
+
+  header ol li {
+    height: 5rem;
+    text-align: center;
+  }
+
+  .menu {
+    width: 100vw;
+    height: auto;
+    background: rgba(12, 159, 249, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 100vw;  
+    top: 0;
+    bottom: 0;
+  }
+
+  .menu.is-active {
+    left: 0;
+  }
+
+  .menu-options a {
+    margin: 4rem 0;
+    font-size: var(--medium-font-size);
+    /* color: #FFFFFF; */
+    justify-content: center;
+  }
+
+
+} 
