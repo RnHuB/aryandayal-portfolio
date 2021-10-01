@@ -1,0 +1,45 @@
+.custom-container {
+    margin: 1vh 15vw;
+    text-align: center;
+}
+
+.blog-page-cover {
+    width: 50vw;
+}
+
+.blog-content {
+    text-align: justify;
+}
+
+#border {
+    width: 100%;
+    height: 6rem;
+}
+
+h1 {
+    font-size: xx-large;
+    color: black;
+}
+
+ul li {
+    color: black;
+}
+
+p {
+    color: bl;
+}
+
+@media screen and (max-width: 600px){
+.custom-container {
+    text-align: center;
+    width: 80vw;
+    margin-left: 4vw;
+}
+
+.blog-page-cover {
+    width: 80vw;
+}
+
+}
+
+
