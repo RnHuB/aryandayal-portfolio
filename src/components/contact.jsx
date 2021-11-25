@@ -36,7 +36,7 @@ function Contact(){
 				<div class="border"></div>
 				<ul>
 					<li><a href='https://www.instagram.com/the_lazyish_programmer/'><img class="sMediaLogo" src={Insta} alt="" /></a></li>
-					<li><a href='linkedin.com/in/aryan-d-3456b8105'><img class="sMediaLogo" src={LinkedIn} alt="" /></a></li>
+					<li><a href='https://www.linkedin.com/in/aryan-d-3456b8105/'><img class="sMediaLogo" src={LinkedIn} alt="" /></a></li>
 					<li><a href='https://www.facebook.com/aryan.dayal/'><img class="sMediaLogo" src={Fb} alt="" /></a></li>
 					<li><a href='https://github.com/RnHuB/'><img class="sMediaLogo" src={Github} alt="" /></a></li>
 				</ul>

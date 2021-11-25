@@ -100,18 +100,18 @@ function AllProjects() {
             </div>
 
             <div class="project-box" id="project6-box" data-aos="fade-up" data-aos-duration="2000">
-                <a href="https://replit.com/@aryandayal/CLIquizGame">
+                <a href="https://aryandayal-software-recommendation-app.netlify.app/">
                     <figure id="project6-bgColor" >
                         <img class="project-logo" src={PlayLogo} alt="" height="150" width="150"/>
                     </figure>
                 </a>
                 <div class="data-box">
                     <div class="project-name">
-                        <h4>Recommened App in react</h4>
+                        <h4>Software Recommendation App in react</h4>
                     </div>
                     <div class="redirection-links">
-                        <a href="https://replit.com/@aryandayal/CLIquizGame"><button>Play</button></a>
-                        <a href="https://github.com/RnHuB/CLI-quiz-game.git"><button>ViewCode</button></a>
+                        <a href="https://aryandayal-software-recommendation-app.netlify.app/"><button>Play</button></a>
+                        <a href="https://github.com/RnHuB/software-recommendation-app.git"><button>ViewCode</button></a>
                     </div>
                 </div>
                           
@@ -150,8 +150,62 @@ function AllProjects() {
                         <a href="https://github.com/RnHuB/is-your-birthday-lucky.git"><button>ViewCode</button></a>
                     </div>
                 </div>
+            </div>
+
+            <div class="project-box" id="project9-box" data-aos="fade-up" data-aos-duration="2000">
+                <a href="https://aryandayal-fun-with-triangle.netlify.app/">
+                    <figure id="project9-bgColor" >
+                        <img class="project-logo" src={PlayLogo} alt="" height="150" width="150"/>
+                    </figure>
+                </a>
+                <div class="data-box">
+                    <div class="project-name">
+                        <h4>Fun wit Triangle</h4>
+                    </div>
+                    <div class="redirection-links">
+                        <a href="https://aryandayal-fun-with-triangle.netlify.app/"><button>Play</button></a>
+                        <a href="https://github.com/RnHuB/fun-with-triangle.git"><button>ViewCode</button></a>
+                    </div>
+                </div>
                           
             </div>
+
+            <div class="project-box" id="project10-box" data-aos="fade-up" data-aos-duration="2000">
+                <a href="https://aryandayal-stock-app.netlify.app/">
+                    <figure id="project10-bgColor" >
+                        <img class="project-logo" src={PlayLogo} alt="" height="150" width="150"/>
+                    </figure>
+                </a>
+                <div class="data-box">
+                    <div class="project-name">
+                        <h4>Stock App</h4>
+                    </div>
+                    <div class="redirection-links">
+                        <a href="https://aryandayal-stock-app.netlify.app/"><button>Play</button></a>
+                        <a href="https://github.com/RnHuB/stock-app.git"><button>ViewCode</button></a>
+                    </div>
+                </div>
+                          
+            </div>
+
+            <div class="project-box" id="project11-box" data-aos="fade-up" data-aos-duration="2000">
+                <a href="https://aryandayal-birthday-palindrome.netlify.app/">
+                    <figure id="project11-bgColor" >
+                        <img class="project-logo" src={PlayLogo} alt="" height="150" width="150"/>
+                    </figure>
+                </a>
+                <div class="data-box">
+                    <div class="project-name">
+                        <h4>Birthday Palindrome</h4>
+                    </div>
+                    <div class="redirection-links">
+                        <a href="https://aryandayal-birthday-palindrome.netlify.app/"><button>Play</button></a>
+                        <a href="https://github.com/RnHuB/birthday-palindrome.git"><button>ViewCode</button></a>
+                    </div>
+                </div>
+                          
+            </div>
+
         </div>
     </section>
 
