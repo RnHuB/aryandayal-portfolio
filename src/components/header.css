@@ -161,7 +161,6 @@ header ol a {
   .menu-options a {
     margin: 4rem 0;
     font-size: var(--medium-font-size);
-    /* color: #FFFFFF; */
     justify-content: center;
   }
 } 
