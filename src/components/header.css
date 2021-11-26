@@ -12,10 +12,6 @@ header {
   opacity: 0.9;
 }
 
-#hamburger {
-  display: none;
-}
-
 header nav {
   width: 100%;
   height: inherit;
@@ -149,7 +145,7 @@ header ol a {
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 100vw;  
+    left: 100vw;
     top: 0;
     bottom: 0;
   }
