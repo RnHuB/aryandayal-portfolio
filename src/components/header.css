@@ -164,23 +164,4 @@ header ol a {
     /* color: #FFFFFF; */
     justify-content: center;
   }
-
-  #hamburger {
-    display: inline;
-    width: 12vw;
-    height: 9vh;
-    background-image: url(/src/components/images/hamburger.png);
-    background-size: contain;
-    margin-top: 16px;
-    opacity: 0.5;
-  }
-
-  #hamburger:hover {
-    opacity: 1;
-  }
-
-  
-
-
-
 } 

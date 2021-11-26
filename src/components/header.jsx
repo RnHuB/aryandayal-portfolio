@@ -10,11 +10,6 @@ function Header() {
                 <div class="logo">
                     <a href="www.github.com/rnhub">Aryan Dayal</a>
                 </div>
-                <div id='hamburger' onClick='toggleMenu'>
-                </div>
-                <div class="menu-btn">
-                    <div class="menu-btn_burger"></div>
-                </div>
                 <div class="menu">
                     <ol class="menu-options">
                         <li><Link class="about-link" to="/">Home</Link></li>
