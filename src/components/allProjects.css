@@ -86,12 +86,6 @@
     justify-content: center;
   }
   
-  footer p {
-    margin: 0;
-    font-weight: 300;
-    color: #FFFFFF;
-  }
-  
   .container {
     margin: 0 auto;
     padding: 0 2rem;
@@ -107,6 +101,7 @@
   .subtitle {
     color: var(--secondary-color);
     text-align: center;
+    padding-top: 30px;
   }
   
   .box-sample {

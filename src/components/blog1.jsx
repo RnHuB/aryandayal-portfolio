@@ -18,6 +18,7 @@ import SaveContact from './images/blog1/savecontact.png'
 
 
 function blog1() {
+    window.scrollTo(0, 0);
     return(
       <>
       <div id='border'></div>

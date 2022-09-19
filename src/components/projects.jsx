@@ -4,14 +4,15 @@ import { Link } from 'react-router-dom'
 import PlayLogo from './images/playLogo.png'
 
 function Projects() {
+    window.scrollTo(0, 0);
     return(
         <>
         <section class="projects" id="projects">
         <div class="container">
-            <div class= "box-sample" data-aos="fade-up" data-aos-duration="2000">
+            <div class="box-sample" data-aos="fade-up" data-aos-duration="2000">
                 <h2 class="subtitle">Projects</h2>
-                <p>Here are some examples of my work</p>
                 <hr/>
+                <p>Here are some examples of my work</p>
             </div>
             <div class="project-box" id="project1-box" data-aos="fade-up" data-aos-duration="2000">
                 <a href="https://replit.com/@aryandayal/levelZeromarkOneCLIapp#index.js">

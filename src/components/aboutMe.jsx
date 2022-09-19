@@ -3,6 +3,7 @@ import './aboutMe.css'
 import ProfilePic from './images/profile.jpg'
 
 function AboutMe(){
+    window.scrollTo(0, 0);
     return(
         <>
         <section class="about" id="about">

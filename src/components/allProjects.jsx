@@ -4,6 +4,7 @@ import PlayLogo from './images/playLogo.png'
 
 
 function AllProjects() {
+    window.scrollTo(0, 0);
     return(
         <>
         <section class="projects" id="projects">

@@ -15,6 +15,7 @@
 
 #about hr {
   background-color: var(--secondary-color);
+  width: 100%;
 }
 
 #about figure {

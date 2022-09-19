@@ -8,7 +8,7 @@ function Header() {
         <div class="container">
             <nav>         
                 <div class="logo">
-                    <a href="www.github.com/rnhub">Aryan Dayal</a>
+                    <a href="#">Aryan Dayal</a>
                 </div>
                 <div class="menu">
                     <ol class="menu-options">

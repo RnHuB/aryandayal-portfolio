@@ -16,7 +16,7 @@ function Contact(){
 			<div class="footer-items">
 				<h1>Currently i am working on :</h1>
 				<p>
-					backend web development in node js ecosystem.
+					NodeJS | ReactJS | ReactNative | DSA
 				</p>
 			</div>
 
@@ -35,10 +35,10 @@ function Contact(){
 				<h2>Social Media Links</h2>
 				<div class="border"></div>
 				<ul>
-					<li><a href='https://www.instagram.com/the_lazyish_programmer/'><img class="sMediaLogo" src={Insta} alt="" /></a></li>
+					<li><a href='https://www.instagram.com/learn_with_rn/'><img class="sMediaLogo" src={Insta} alt="" /></a></li>
 					<li><a href='https://www.linkedin.com/in/aryan-d-3456b8105/'><img class="sMediaLogo" src={LinkedIn} alt="" /></a></li>
 					<li><a href='https://www.facebook.com/aryan.dayal/'><img class="sMediaLogo" src={Fb} alt="" /></a></li>
-					<li><a href='https://github.com/RnHuB/'><img class="sMediaLogo" src={Github} alt="" /></a></li>
+					<li><a href='https://github.com/aryanthecrew/'><img class="sMediaLogo" src={Github} alt="" /></a></li>
 				</ul>
 			</div>
 
@@ -47,13 +47,13 @@ function Contact(){
 				<div class="border"></div>
 				<ul>
 					<li>Address : Patna</li>
-					<li>Mob.: 9097134523</li>
+					<li>Phone : 9097134523</li>
 					<li>e-mail : dayal.rn@gmail.com</li>
 				</ul>
 			</div>
 		</div>
 		<div class="footer-bottom">
-			Copyright &copy; rnhub 2021. All rights reserved.
+			Copyright &copy; aryanthecrew 2021. All rights reserved.
 		</div>
 	</div>
     </>

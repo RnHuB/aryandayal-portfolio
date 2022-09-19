@@ -32,6 +32,28 @@ a {
   margin: 2vh 0 0 0;
 }
 
+.blog-box-sample hr {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.blog-box-sample {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.blog-box-sample p {
+  font-weight: bolder;
+  color: darkslategray;
+}
+
+#blog-container {
+  background-color: var(--terciary-color);
+}
+
+
 @media screen and (max-width: 668px) {
   .blog-grid-container {
       grid-template-columns: auto auto;

@@ -12,6 +12,7 @@ import Shortcuts from './images/blog2/shortcuts.png'
 
 
 function blog2() {
+    window.scrollTo(0, 0);
     return(
       <>
       <div id='border'></div>

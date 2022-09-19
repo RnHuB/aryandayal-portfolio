@@ -5,12 +5,14 @@ import Tilda from './images/blog2/tilda.png'
 import { Link } from 'react-router-dom'
 
 function Blogs() {
+    window.scrollTo(0, 0);
     return(
         <>
-            <div class= "box-sample" data-aos="fade-up" data-aos-duration="2000">
+        <div id="blog-container">
+            <div class="blog-box-sample" data-aos="fade-up" data-aos-duration="2000">
                 <h2 class="subtitle">Blogs</h2>
-                <p>Here my some blogs</p>
                 <hr/>
+                <p>Here my some blogs :-</p>
             </div>
         <main class="blog-grid-container">
     <section class="blog-post">
@@ -31,7 +33,7 @@ function Blogs() {
     </section>
 </main>
 
-<div class="clear-div"></div>
+</div>
     </>
     )
 }
